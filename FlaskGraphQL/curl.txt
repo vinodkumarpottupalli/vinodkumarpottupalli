@@ -1,0 +1,93 @@
+################## Fetch Data #############################
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query":"{find_cars { brand model } }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query":"{find_cars { car_id price model release_year} }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"b2bb6c51-cb35-4252-9ad4-7d58d9c68671\"){ car_id model }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"xxxxxxxx\"){ car_id model }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_cars{ model price engine { name capacity_cc horsepower } }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"c5363cd0-ba44-4013-84d9-451ecc1e57f4\"){ model price engine { name torque horsepower } features { name installation_price} }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"c5363cd0-ba44-4013-84d9-451ecc1e57f4\"){ model price engine { capacity_cc horsepower } features { name } }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"c5363cd0-ba44-4013-84d9-451ecc1e57f4\"){ car_id brand model price transmission release_year description engine { engine_id name capacity_cc torque horsepower } features { name installation_price} }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_cars{ model manufacturer }}"}'
+
+------------------------------------------------------------------------------------------------------
+########################### POST Request ############################################
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { create_engine(torque: 607, horsepower: 777, name: \"Fake Engine 1\", capacity_cc: 1700 ) { engine_id success } }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_engine_by_id(engine_id: \"<replace-with-your-new-engine-id>\"){ engine_id name capacity_cc horsepower torque }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { create_engine(name: \"Simple Engine 2\") { engine_id success } }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_engine_by_id(engine_id: \"<replace-with-your-new-engine-id>\"){ engine_id name capacity_cc horsepower torque }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { create_car(brand: \"Toyota\" model: \"Toyota Star\", transmission: \"AUTOMATIC\", price: 30000, release_year: 2023, description: \"Amazing car\", engine_id: \"e879773c-b2b8-418f-9b03-63d992ebbe27\", features: []) { car_id success } }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"<replace-with-your-new-car-id>\"){ car_id brand model price transmission release_year description engine { engine_id name capacity_cc torque horsepower } features { name installation_price} }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { create_car(brand: \"Ferrari\", model: \"Ferrari Dragon\", transmission: \"AUTOMATIC\", price: 70000, release_year: 2023, description: \"Impossible car\", engine_id: \"e879773c-b2b8-418f-9b03-63d992ebbe27\", features: [{name: \"Can fly\", installation_price: 999}, {name: \"Use solar power\", installation_price: 980}]) { car_id success } }"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"<replace-with-your-new-car-id>\"){ car_id brand model price transmission release_year description engine { engine_id name capacity_cc torque horsepower } features { name installation_price} }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { create_car(model: \"Toyota 1\", transmission: \"AUTOMATIC\", price: 30000, release_year: 2023, description: \"Amazing car\", engine_id: \"e879773c-b2b8-418f-9b03-63d992ebbe27\") { car_id success } }"}'
+
+-------------------------------------------------------------------------------------------------------------------------------------
+##################### Delete ################################################################
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_cars{ car_id }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "mutation { delete_car_by_id(car_id: \"bc467c74-9e09-4468-99c3-876a55a550d2\"){ car_id success }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_cars{ car_id }}"}'
+
+curl --location --request POST 'http://localhost:8080/graphql' \
+--header 'Content-Type: application/json' \
+--data-raw '{"query": "{ find_car_by_id(car_id: \"bc467c74-9e09-4468-99c3-876a55a550d2\"){ car_id } }"
+}'
