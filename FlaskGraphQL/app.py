@@ -11,20 +11,10 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///cars.db"
 db = SQLAlchemy(app)
 
-# The lab is behind a http proxy, so it's not aware of the fact that it should use https.
-# We use ProxyFix to enable it: https://flask.palletsprojects.com/en/2.0.x/deploying/wsgi-standalone/#proxy-setups
-app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
-
-
-# Used for any other security related needs by extensions or application, i.e. csrf token
 app.config['SECRET_KEY'] = 'mysecretkey'
-
-# Required for cookies set by Flask to work in the preview window that's integrated in the lab IDE
 app.config['SESSION_COOKIE_SAMESITE'] = 'None'
 app.config['SESSION_COOKIE_HTTPONLY'] = True
 app.config['SESSION_COOKIE_SECURE'] = True
-
-# Required to render urls with https when not in a request context. Urls within Udemy labs must use https
 app.config['PREFERRED_URL_SCHEME'] = 'https'
 
 
