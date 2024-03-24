@@ -1,0 +1,92 @@
+{% extends 'main.html' %}
+{% block content %}
+<!-- search bar  -->
+<section>
+ <div class="container">
+  <form class="search-bar" action="/", method="get">
+    <input type="text" placeholder="Enter Your Keywords" name="q" value="{{query}}"/>
+   <select name="location" id="">
+    <option hidden disabled selected value> -- select location -- </option>
+    {% for value in location_values %}
+     <option value="{{ value.location }}"             
+{% if value.location == query_location %}selected="selected"{% endif %}>{{ value.location }}</option>
+    {% endfor %}
+   </select>
+   <select name="type" id="">
+    <option hidden disabled selected value> -- select job type -- </option>
+    {% for value in type_values %}
+     <option value="{{ value.type }}"
+    {% if value.type == query_type %}selected="selected"{% endif %}>{{ value.type }}</option>
+    {% endfor %}
+   </select>
+   <button class="search">Search</button>
+  </form>
+ </div>
+</section>
+    
+    <!-- job post lists -->
+    <section>
+      <div class="container">
+          {% for job in jobs %}
+        <!-- job post -->
+        <div class="post">
+          <!-- title and des -->
+          <div class="job-info">
+            <h1 class="job-title">{{job.title}}</h1>
+            <div class="job-des">
+              <div class="location item">
+                <span class="material-icons"> place </span>
+                <p>{{job.location}}</p>
+              </div>
+              <div class="budget item">
+                <span class="material-icons"> attach_money </span>
+                <p>{{job.min_salary}}-{{job.max_salary}}/Pm</p>
+              </div>
+              <div class="time item">
+                <span class="material-icons"> schedule </span>
+                <p>{{job.type}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="apply view">
+              <a href="{% url 'view_job' job.id %}">View Job</a>
+              </button>
+              <button class="apply" onclick="myFunction()">Apply</button>
+          </div>
+        </div>
+        <!-- job post end-->
+        {% endfor %}
+</div>
+    </section>
+    <center>
+ <div class="pagination">
+  {% if jobs.has_previous %}
+ <a id="pg-button-prev" type="button" class="pagination__button"
+        href="?{% if query %}q={{query}}{% endif %}&{% if query_location %}location={{query_location}}{% endif %}&{% if query_type %}type={{query_type}}{% endif %}&page={{ jobs.previous_page_number }}">
+ <span class="material-icons"> arrow_back </span>
+ </a>
+{% endif %}
+ 
+   <div class="pagination__list">
+ {% for i in page_range %}
+  {% if jobs.number == i %}
+    <a href="#" class="pagination__item pagination__item--1">
+     <button id="pg-button-1" type="button" data-level="target">{{ i }} </button>
+    </a>
+  {% else %}
+   <a href="?{% if query %}q={{query}}{% endif %}&{% if query_location %}location={{query_location}}{% endif %}&{% if query_type %}type={{query_type}}{% endif %}&page={{ i }}" class="pagination__item pagination__item--1">
+    <button id="pg-button-1" type="button">{{ i }}</button>
+   </a>
+  {% endif %}
+ {% endfor %}
+</div>
+ 
+    {% if jobs.has_next %}
+ <a id="pg-button-next" href="?{% if query %}q={{query}}{% endif %}&{% if query_location %}location={{query_location}}{% endif %}&{% if query_type %}location={{query_type}}{% endif %}&page={{ jobs.next_page_number }}" type="button" class="pagination__button">
+  <span class="material-icons"> arrow_forward </span>
+ </a>
+{% endif %}
+   </div>
+</center>
+    {% endblock %}
