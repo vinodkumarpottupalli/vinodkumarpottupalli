@@ -1,0 +1,1109 @@
+[{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "Web Designer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Front Ed Developer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Backend Developer With Python/Java"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Andriod Developer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "IOS Developer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Android app Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Full stack app Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Node.js Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Front End Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Front End Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "iOS App Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Dev-ops Engineer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Front End Developer"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "Web Designer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "Web Designer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "Front End Developer"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Web Designer",
+        "min_salary": 1500,
+        "max_salary": 3500,
+        "location": "Mumbai",
+        "type": "Part-Time",
+        "created": "2024-03-15T18:36:27.067Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 2000,
+        "max_salary": 3000,
+        "location": "Gurugram",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Backend End Developer Needed",
+        "min_salary": 1000,
+        "max_salary": 5000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 15000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS app Developer Needed",
+        "min_salary": 10000,
+        "max_salary": 11000,
+        "location": "Kolkata",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}, {
+    "model": "myapp.job",
+    "fields": {
+        "title": "Android app Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 10500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Full stack app Developer Needed",
+        "min_salary": 5500,
+        "max_salary": 8500,
+        "location": "Hyderabad",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Node.js Developer Needed",
+        "min_salary": 4500,
+        "max_salary": 7500,
+        "location": "Hyderabad",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 6500,
+        "max_salary": 7500,
+        "location": "Bengaluru",
+        "type": "Part-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Chennai",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "iOS App Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Dev-ops Engineer",
+        "min_salary": 7000,
+        "max_salary": 9000,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+},
+
+{
+    "model": "myapp.job",
+    "fields": {
+        "title": "Front End Developer Needed",
+        "min_salary": 8500,
+        "max_salary": 9500,
+        "location": "Bengaluru",
+        "type": "Full-Time",
+        "created": "2024-03-15T16:49:25.955Z",
+        "desc": "As per the Job Title"
+    }
+}
+
+
+]

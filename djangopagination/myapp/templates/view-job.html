@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+{% block content %}
+<section>
+      <div class="container">
+        <div class="view-post">
+          <h1 class="jobtitle">
+            {{job.title}}
+          </h1>
+          <p class="location it">Location: <span>{{job.location}}</span></p>
+          <p class="status it">Type: <span>{{job.type}}</span></p>
+          <p class="budget it">Salary: <span>${{job.min_salary}}-${{job.max_salary}}</span></p>
+          <div class="desc">
+            <p class="details">
+              {{job.desc}}
+            </p>
+          </div>
+          <button class="apply">Apply</button>
+        </div>
+      </div>
+    </section>
+    {% endblock %}
